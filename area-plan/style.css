@@ -1,2 +1,9 @@
-header{text-align;right}
-body{text-align;center}
+header{text-align:right}
+h1{color:black;text-align:center;font-size:60px}
+main{text-align:center}
+h2{color:#90D5ff; text-align:center;font-size:45px }
+footer{text-align:center;font-size:33px}
+.vision{
+    width:15%;
+    margin:auto;
+}
