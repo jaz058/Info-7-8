@@ -52,7 +52,8 @@ main{
 .post-description{
     padding:1rem:
 }
-.user{font-weight:bold;
+.user{
+    font-weight:bold;
 }
 .ad{
     background-color:lightpink;
