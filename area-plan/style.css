@@ -1,4 +1,3 @@
-header{text-align:right}
 h1{color:black;text-align:center;font-size:60px}
 main{text-align:center}
 h2{color:#90D5ff; text-align:center;font-size:45px }
@@ -6,4 +5,16 @@ footer{text-align:center;font-size:33px}
 .vision{
     width:15%;
     margin:auto;
+}
+#principal1{
+    display:flex;
+    justify-content: space-between;
+}
+#izquierda{
+    display:flex;
+    justify-content: flex-start;
+}
+#derecha{
+    display:flex;
+    justify-content: flex-end;
 }
