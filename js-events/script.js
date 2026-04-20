@@ -11,8 +11,15 @@
 
 // addNumbers(6,7);
 
-function Article(){
+function article1(){
     alert("1 Nosotros creemos en Dios el Eterno Padre, y en su Hijo Jesucristo, y en el Espíritu Santo.");
 
 }
-Article(")
+function article2(){
+    alert("Creemos que los hombres serán castigados por sus propios pecados, y no por la transgresión de Adán.");
+
+}
+function article3(){
+    alert("3 Creemos que por la expiación de Cristo, todo el género humano puede salvarse, mediante la obediencia a las leyes y ordenanzas del Evangelio");
+
+}
