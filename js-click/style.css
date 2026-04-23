@@ -1,0 +1,23 @@
+body{
+    min-height:100svh;
+    bachground-color:blue
+    font-family:"Sekuya"; system-ui;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    font-size:2rem;
+}
+
+button{
+    background-color:lightgreen;
+    height:200px;
+    width:300px;
+    border:1px solid greenyellow;
+    cursor:pointer;
+    text-transform: uppercase;
+}
