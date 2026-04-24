@@ -2,7 +2,7 @@ body{
     min-height:100svh;
     bachground-color:blue
     font-family:"Sekuya"; system-ui;
-    color:white;
+    color:Black;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -14,10 +14,10 @@ h1{
 }
 
 button{
-    background-color:lightgreen;
+    background-color:pink;
     height:200px;
     width:300px;
-    border:1px solid greenyellow;
+    border:1px solid pink;
     cursor:pointer;
     text-transform: uppercase;
 }
