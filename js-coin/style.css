@@ -1,0 +1,22 @@
+
+h1{
+    font-size:2rem;
+}
+button{
+    background-color:pink;
+    height:200px;
+    width:300px;
+    border:1px solid pink;
+    cursor:pointer;
+    text-transform: uppercase;
+}
+body{
+    min-height:100svh;
+    bachground-color:blue
+    font-family:"Sekuya"; system-ui;
+    color:Black;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
