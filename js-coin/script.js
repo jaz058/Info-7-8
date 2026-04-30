@@ -1,5 +1,5 @@
 
-function head() {
+function heads() {
     let random = Math.random();
     let text = document.querySelector("h1");
 
