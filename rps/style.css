@@ -1,20 +1,20 @@
-h1{
+/* h1{
     font-size:5rem;
    color:#90D5ff;
    text-align:center;
 }
 button{
-    background-color:orange;
+    background-color:#87ffcb;
     height:200px;
     width:300px;
-    border:3px green;
+    border:3px #87ffcb;
     cursor:pointer;
     text-transform: uppercase;
     align-items:center;
 }
 body{
     align-items:center;
-    background-color:yellow;
+    background-color:#42fae0;
 
 }
 min-height:100svh;
@@ -25,4 +25,4 @@ min-height:100svh;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-}
+} */
