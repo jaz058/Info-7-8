@@ -19,6 +19,8 @@ funtion game (userChoice){
             result.innerHTML = "You lose";
         } else {
             result.innerHTML ="You won";
+            wCount++;
+            document.querySelector("#w-counter").innerHTML = wCount;
         }
     }
 }
