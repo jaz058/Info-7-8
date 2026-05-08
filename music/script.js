@@ -1,21 +1,21 @@
 document.addEventListener("DOMContentLoaded", function(){
     const kick = new Audio("sounds/kick.wav");
-    const sanre = new Audio("sounds/sanre.wav");
+    const snare = new Audio("sounds/snare.wav");
     const clap = new Audio("sounds/clap.wav");
     const cowbell = new Audio("sounds/cowbell.wav");
     const hihat = new Audio("sounds/hihat.wav");
-    const open = new Audio("sounds/open.wav");
+    const openhat = new Audio("sounds/openhat.wav");
     const tom = new Audio("sounds/tom.wav");
     const yuh = new Audio("sounds/yuh.wav");
 
-    const kickDiv = cocument.queryselector("#kick");
-    const snareDiv = cocument.queryselector("#snare");
-    const clapDiv = cocument.queryselector("#clap");
-    const cowbellDiv = cocument.queryselector("#cowbell");
-    const hihatDiv = cocument.queryselector("#hihat");
-    const openDiv = cocument.queryselector("#open");
-    const tomDiv = cocument.queryselector("#tom");
-    const yuhDiv = cocument.queryselector("#yuh");
+    const kickDiv = document.querySelector("#kick");
+    const snareDiv = document.querySelector("#snare");
+    const clapDiv = document.querySelector("#clap");
+    const cowbellDiv = document.querySelector("#cowbell");
+    const hihatDiv = document.querySelector("#hihat");
+    const openhatDiv = document.querySelector("#open");
+    const tomDiv = document.querySelector("#tom");
+    const yuhDiv = document.querySelector("#yuh");
 
 
 
@@ -45,10 +45,10 @@ document.addEventListener("DOMContentLoaded", function(){
             hihat.play();
             hihatDiv.classList.add("active");
 
-        }else if (event.key == "e") {
-            open.currentTime = 0;
-            open.play();
-            openDiv.classList.add("active");
+        }else if (event.key == "g") {
+            openhat.currentTime = 0;
+            openhat.play();
+            openhatDiv.classList.add("active");
 
         }else if (event.key == "w") {
             tom.currentTime = 0;
@@ -59,26 +59,26 @@ document.addEventListener("DOMContentLoaded", function(){
             yuh.currentTime = 0;
             yuh.play();
             yuhDiv.classList.add("active");
-    })
+    }
+})
 
-    window.addEventListener("keyup", function (event)){
+    window.addEventListener("keyup", function (event){
         if (event.key == "a"){
             kickDiv.classList.remove("active");
         } else if (event.key == "s"){
-            snereDiv.classList.remove("active");
+            snareDiv.classList.remove("active");
         } else if (event.key == "r"){
             clapDiv.classList.remove("active");
         } else if (event.key == "f"){
             cowbellDiv.classList.remove("active");
         } else if (event.key == "d"){
             hihatDiv.classList.remove("active");
-        } else if (event.key == "e"){
-            openDiv.classList.remove("active");
+        } else if (event.key == "g"){
+            openhatDiv.classList.remove("active");
         } else if (event.key == "w"){
             tomDiv.classList.remove("active");
         } else if (event.key == "q"){
             yuhDiv.classList.remove("active");
     }
 })
-
-
+    })

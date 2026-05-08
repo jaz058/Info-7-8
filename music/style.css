@@ -1,7 +1,15 @@
+h1{
+    text-transform: Uppercase;
+    font-size:3rem;
+    text-align:center;
+}
 .instrument{
-    background-color:#feeeb8;
+    background-color:#ffe0ff;
+    font-family: sans-serif;
+    text-align:center;
+    width:500px;
+    margin:auto
 }
 .active{
-    background-color:black
-    color:white;
+    background-color:#89004f;
 }
