@@ -1,16 +1,19 @@
 let counter = 60;
+let alarm = new Auidio("alarm.mp3");
 
 function count() {
-    counter--;
-    document.querySelector('h1').innerHTML = counter;}
 
-    const alarm = new Audio("sounds/alarm");
+    if (counter > 0){
+        counter --;
+        document.querySelector('h1').innerHTML = counter;}
 
-    function sound(){
-    if (event.key == "0") {
-            alarm.currentTime = 0;
-            alarm.play();}
-    }
+        else if( counter == 0){
+            alarm.play();
+            counter --;
+
+        }
+     }
+
 
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('button').onclick = function(){
