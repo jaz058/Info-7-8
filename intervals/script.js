@@ -1,5 +1,5 @@
 let counter = 60;
-let alarm = new Auidio("alarm.mp3");
+let alarm = new Audio("alarm.mp3");
 
 function count() {
 

@@ -1,0 +1,26 @@
+h1{
+    text-transform: Uppercase;
+    font-size:10rem;
+    text-align:center;
+    color:#ea9639;
+}
+h2{
+    text-transform: Uppercase;
+    text-align:center;
+    font-size:6rem;
+    color:#e57c08;
+
+}
+
+button{
+    background-color:#ff9800;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+     align-items: center;
+    width:600px;
+    margin:auto;
+}
+body{
+    background-image:url("https://static.vecteezy.com/system/resources/previews/004/105/605/non_2x/orange-fruit-seamless-pattern-background-illustration-juicy-fresh-summer-theme-wallpaper-free-vector.jpg")
+}
